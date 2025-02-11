@@ -9,6 +9,6 @@ export const Loading = () => {
     );
 }
 
-export const SuspenceContainer = ({children}) => {
+export const SuspenseContainer = ({children}) => {
     return <Suspense fallback={<Loading/>}>{children}</Suspense>
 }
